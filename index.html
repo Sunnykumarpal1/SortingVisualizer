@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <header>
+    <h1 class="title">Sorting Visualizer</h1>
+    <nav>
+      <div id="newArrayButton">
+        <button id="newArray" class="btn">New Array</button>
+      </div>
+      <div id="slider">
+        <div class="arr-Size">
+          Size
+          <input id="size" type="range" value="50" min="5" max="100" step="1" />
+        </div>
+        <div class="arr-Speed">
+          Speed
+          <input
+            id="range"
+            type="range"
+            value="20"
+            min="1"
+            max="300"
+            stepDown="10"
+          />
+        </div>
+      </div>
+      <div id="Sorting-algo">
+        <button class="btn bubble">Bubble Sort</button>
+        <button class="btn insertion">Insertion Sort</button>
+        <button class="btn merge">Merge Sort</button>
+        <!-- <button class="btn quick">Quick Sort</button> -->
+        <button class="btn selection">Selection Sort</button>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <div id="bars"></div>
+    <script src="./js/index.js"></script>
+    <script src="./js/Bubble.js"></script>
+    <script src="./js/Insertion.js"></script>
+    <script src="./js/Merge.js"></script>
+    <script src="./js/Quick.js"></script>
+    <script src="./js/Selection.js"></script>
+  </body>
+</html>
