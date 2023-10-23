@@ -10,7 +10,7 @@ function enable() {
   document.querySelector(".insertion").disabled = false;
   document.querySelector(".selection").disabled = false;
   document.querySelector(".merge").disabled = false;
-  // document.querySelector(".quick").disabled = false;
+  document.querySelector(".quick").disabled = false;
   document.querySelector("#size").disabled = false;
   ele.disabled = false;
 }
@@ -20,7 +20,7 @@ function disable() {
   document.querySelector(".insertion").disabled = true;
   document.querySelector(".selection").disabled = true;
   document.querySelector(".merge").disabled = true;
-  // document.querySelector(".quick").disabled = true;
+  document.querySelector(".quick").disabled = true;
   document.querySelector("#size").disabled = true;
   ele.disabled = true;
 }
